@@ -4,7 +4,8 @@
 Go to `notebooks/efficient_eval_demo.ipynb`
 
 
-### If you find LiveXiv useful for your research and applications, please cite using this BibTeX:
+------
+If you find LiveXiv useful for your research and applications, please cite using this BibTeX:
 ```
 @misc{shabtay2024livexivmultimodallive,
       title={LiveXiv -- A Multi-Modal Live Benchmark Based on Arxiv Papers Content}, 
