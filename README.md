@@ -1,10 +1,32 @@
-# LiveXiv
+# LiveXiv -- A Multi-Modal Live Benchmark Based on Arxiv Papers Content
 
-## Efficient Evaluation method
-Go to `notebooks/efficient_eval_demo.ipynb`
+Welcome to our GitHub repository! This repository is based on the ideas introduced in
+
+[Shabtay, Nimrod, Felipe Maia Polo, Sivan Doveh, Wei Lin, M. Jehanzeb Mirza, Leshem Chosen, Mikhail Yurochkin et al. "LiveXiv--A Multi-Modal Live Benchmark Based on Arxiv Papers Content." arXiv preprint arXiv:2410.10783 (2024).](https://arxiv.org/abs/2410.10783)
+
+## Installation
+
+To use the code in this repository, clone the repo and create a conda environment using:
+
+```
+conda env create --file=environment.yaml
+conda activate sloth
+```
+
+## Efficient evaluation
+
+###  Quick start
+
+If you are interested in checking how our efficient eval method works in practice, please check [this notebook](https://github.com/NimrodShabtay/LiveXiv/blob/main/notebooks/efficient_eval_demo.ipynb).
 
 
-------
+### Reproducing results from the paper
+
+Please check our [notebooks](https://github.com/NimrodShabtay/LiveXiv/tree/main/notebooks).
+
+
+## Citing
+
 If you find LiveXiv useful for your research and applications, please cite using this BibTeX:
 ```
 @misc{shabtay2024livexivmultimodallive,
