@@ -12,6 +12,9 @@ To use the code in this repository, clone the repo and create a conda environmen
 conda env create --file=environment.yaml
 conda activate sloth
 ```
+## Data
+
+Our data can be found on [HuggingFace](https://huggingface.co/datasets/LiveXiv/LiveXiv).
 
 ## Efficient evaluation
 
