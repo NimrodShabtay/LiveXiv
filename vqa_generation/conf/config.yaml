@@ -1,0 +1,39 @@
+artifacts_dir: "./artifacts/"
+assests_type: 'all'
+unfiltered_results_name: 'unfiltered_questions_for_eval.json'
+filter_results_name: 'filter_questions_for_eval.csv'
+model_name: "liuhaotian/llava-v1.6-34b"
+
+# placeholders for runtime values
+filter_results_fig_name: ''
+unfiltered_results_fig_name: ''
+filter_results_table_name: ''
+unfiltered_results_table_name: ''
+
+arxiv:
+  max_results: 25
+  dpi: 300
+  do_download: False
+  download_src: True
+  prev_version_dir: ''
+
+filtering:
+  fig_type_to_exclude: ['']
+  agreement: True
+  blind_n_iter: 3
+  model: "liuhaotian/llava-v1.6-34b"
+
+generate:
+  external_paper_list: ''
+  freestyle: False
+  
+flow:
+  fetch_data: True
+  generate: True
+  collect: True
+  filtering: True
+  hf_dataset: True
+
+models:
+  generation: gpt
+  filter: claude 
