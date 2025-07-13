@@ -1,4 +1,4 @@
-# LiveXiv -- A Multi-Modal Live Benchmark Based on Arxiv Papers Content
+# LiveXiv - A Multi-Modal Live Benchmark Based on Arxiv Papers Content
 
 Welcome to our GitHub repository! This repository is based on the ideas introduced in
 
@@ -15,6 +15,17 @@ conda activate sloth
 ## Data
 
 Our data can be found on [HuggingFace](https://huggingface.co/datasets/LiveXiv/LiveXiv).
+
+## VQA Generation
+Go to `vqa_generation`
+```
+python main.py artifacts_dir=<artifacts_dir>
+```
+Comments:
+* There are many configuration options inside `vqa_generation/confing/conf.yaml` so be sure to check it before you start.
+* Api-keys for GPT and/or claude are needed to run the code.
+* Additional installation is required - `pip install vqa_generation/requirements.txt`
+* You will need to clone and install the llava repo to work with the stand-alone blind filtering (you can switch to any other model with minimal changes)
 
 ## Efficient evaluation
 
